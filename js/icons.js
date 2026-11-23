@@ -1,0 +1,48 @@
+// Ícones SVG (stroke, estilo feather) usados em toda a aplicação.
+const I = {
+  home: `<path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9"/>`,
+  lock: `<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>`,
+  box: `<path d="M21 8 12 3 3 8l9 5 9-5Z"/><path d="M3 8v9l9 5 9-5V8"/><path d="M12 13v9"/>`,
+  chat: `<path d="M4 4h16v12H8l-4 4V4Z"/>`,
+  building: `<rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 8h1M14 8h1M9 12h1M14 12h1M9 16h1M14 16h1"/>`,
+  book: `<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/>`,
+  grid: `<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>`,
+  wallet: `<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><circle cx="16.5" cy="14.5" r="1"/>`,
+  file: `<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/>`,
+  shield: `<path d="M12 3 4 6v6c0 5 3.5 8.5 8 9 4.5-.5 8-4 8-9V6Z"/>`,
+  wrench: `<path d="m14.7 6.3 3 3-7.4 7.4a3 3 0 0 1-2.1.9H6v-2.2a3 3 0 0 1 .9-2.1Z"/><path d="M17 3a3 3 0 0 0 0 6l1 1 2-2-1-1a3 3 0 0 0-2-4Z"/>`,
+  calendar: `<rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/>`,
+  search2: `<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>`,
+  users: `<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17.5" cy="9" r="2.6"/><path d="M15.5 14c2.9.4 5 2.8 5 6"/>`,
+  user: `<circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c0-4.1 3.4-7.5 7.5-7.5s7.5 3.4 7.5 7.5"/>`,
+  mic: `<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v4"/>`,
+  mail: `<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 6 8 7 8-7"/>`,
+  more: `<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>`,
+  bell: `<path d="M6 10a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6Z"/><path d="M10 20a2 2 0 0 0 4 0"/>`,
+  menu: `<path d="M3 6h18M3 12h18M3 18h18"/>`,
+  close: `<path d="M18 6 6 18M6 6l12 12"/>`,
+  chevronDown: `<path d="m6 9 6 6 6-6"/>`,
+  chevronRight: `<path d="m9 6 6 6-6 6"/>`,
+  plus: `<path d="M12 5v14M5 12h14"/>`,
+  camera: `<path d="M4 8h3l2-3h6l2 3h3v12H4Z"/><circle cx="12" cy="14" r="3.4"/>`,
+  qr: `<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM19 14h2v2h-2zM14 19h2v2h-2zM19 19h2v2h-2z"/>`,
+  mapPin: `<path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.4"/>`,
+  checkCircle: `<circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.3 2.3L16 10"/>`,
+  alertTriangle: `<path d="M12 3 2 20h20L12 3Z"/><path d="M12 10v4"/><path d="M12 17h.01"/>`,
+  download: `<path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 19h14"/>`,
+  copy: `<rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/>`,
+  video: `<rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3Z"/>`,
+  key: `<circle cx="8" cy="15" r="4"/><path d="M11 12 20 3M16 4l3 3M13 7l2.5 2.5"/>`,
+  sparkle: `<path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="3"/>`,
+  arrowRight: `<path d="M5 12h14M13 6l6 6-6 6"/>`,
+  play: `<path d="M7 4v16l14-8Z"/>`,
+  fingerprint: `<path d="M12 11a2.5 2.5 0 0 1 2.5 2.5c0 3-1 4.5-2 6M9.5 20c1-2 1.5-3.5 1.5-6a1 1 0 0 1 2 0"/><path d="M6.5 18c1.2-2.3 1.8-4 1.8-6.5a3.7 3.7 0 0 1 7.4 0c0 1 0 2-.3 3"/><path d="M4.2 15a13 13 0 0 0 .8-4.5 7 7 0 0 1 13.8-1.6M19.5 9.5c.3 1 .5 2 .5 3a13 13 0 0 1-.6 4"/>`,
+  package: `<path d="M21 8 12 3 3 8l9 5 9-5Z"/><path d="M3 8v9l9 5 9-5V8"/><path d="M12 13v9"/>`,
+  target: `<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>`,
+  logout: `<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/>`,
+};
+
+function icon(name, cls = '') {
+  const body = I[name] || I.home;
+  return `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${body}</svg>`;
+}
